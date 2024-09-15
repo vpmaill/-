@@ -2,4 +2,4 @@
 ```
 cat /etc/passwd | grep -o -E '^\w+' | sort
 ```
-![](pract1res.png)
+![](num1res.png)
