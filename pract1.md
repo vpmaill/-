@@ -9,3 +9,12 @@ cat /etc/passwd | grep -o -E '^\w+' | sort
 cat /etc/protocols | awk '{print $2, $1}' | sort -nr | head -5
 ```
 ![](num2res.png)
+
+# Задание 3
+```
+line = input()
+print("+" + "-" * (len(line) + 2) + "+")
+print("| " + line + " |")
+print("+" + "-" * (len(line) + 2) + "+")
+```
+![](num3res.png)
