@@ -18,3 +18,9 @@ print("| " + line + " |")
 print("+" + "-" * (len(line) + 2) + "+")
 ```
 ![](num3res.png)
+
+# Задание 4
+```
+cat hello.c | grep -o -E '\b[a-zA-Z_][a-zA-Z_0-9]*\b' | sort -u
+```
+![](num4res.png)
