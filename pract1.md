@@ -24,3 +24,11 @@ print("+" + "-" * (len(line) + 2) + "+")
 cat hello.c | grep -o -E '\b[a-zA-Z_][a-zA-Z_0-9]*\b' | sort -u
 ```
 ![](num4res.png)
+
+# Задание 5
+```
+file=$1
+chmod 755 "./$file"
+sudo cp "$file" /usr/local/bin/
+```
+![](num5res.png)
