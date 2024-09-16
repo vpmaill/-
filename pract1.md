@@ -32,3 +32,21 @@ chmod 755 "./$file"
 sudo cp "$file" /usr/local/bin/
 ```
 ![](num5res.png)
+
+# Задание 6
+```
+if [["${1##*.}" == "js" ]] || [[ "${1##*.}" == "cpp" ]]; then
+        if [[ "${(head -n 1 $1):0:2}"; then
+                echo "Есть комментарий"
+        else
+                echo "Нет комментария"
+        fi
+else
+        if [[ "${line:0:1}" == "#" ]]; then
+                echo "Есть комментарий"
+        else
+                echo "Нет комментария"
+        fi
+fi
+```
+![](num6res.png)
